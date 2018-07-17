@@ -15,3 +15,7 @@ alias sbp='source ~/.bashrc'
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi
+
+mount -t cifs -o username=administrator,password=xiamen123 //10.24.242.107/Data /windata/Data
+mount -t cifs -o username=administrator,password=xiamen123 //10.24.242.107/BackData /windata/BackData
+mount -t cifs -o username=administrator,password=Qih@xiamen123 //10.24.242.107/HistoryData /windata/HistoryData
