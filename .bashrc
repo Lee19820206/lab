@@ -10,6 +10,7 @@ alias ll='ls -l'
 alias cl='clear'
 alias ebp='vim ~/.bashrc'
 alias sbp='source ~/.bashrc'
+alias psg='ps -ef | grep '
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
